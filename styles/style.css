@@ -1,0 +1,232 @@
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 1.1em;
+  font-family: 'Neucha', cursive;
+  background-size: auto;
+  background-position: center top;
+  background-repeat: repeat;
+  background-image: url("../images/background/background.webp")
+}
+
+footer {
+  color: white;
+  background-color: rgb(225, 83, 60);
+}
+
+/* Layout styles */
+.main-area {
+  overflow: hidden;
+}
+
+#main_area_upper {
+  background-color: whitesmoke;
+}
+
+.include-right-splitter {
+  border-right: 2px dotted rgb(225, 83, 60);
+}
+
+.single-horizontal-splitter {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-top: 2px dotted rgb(225, 83, 60);
+}
+
+/* Navigation bar styling */
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.logo-text {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right-panel {
+  margin-left: auto !important;
+}
+
+.header-list {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3em;
+  list-style-type: none;
+}
+
+.header-list li {
+  display: inline-block;
+}
+
+.header-list li a {
+  color: #E1533C;
+  text-decoration: none;
+}
+
+.header-list li a:hover:not(.active) {
+  color: #494949;
+  transition: color 0.4s ease 0s;
+}
+
+.header-list li a.active {
+  color: #000000;
+  transition: color 0.4s ease 0s;
+}
+
+#header-contact-info-splitter {
+  width: 2px;
+  height: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-right: 2px dotted rgb(225, 83, 60);
+}
+
+/* Main banner styling */
+.main-banner-container {
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-top: 2px dotted rgb(225, 83, 60);
+  border-bottom: 2px dotted rgb(225, 83, 60);
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Carousel styling */
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 5px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+  text-align: center;
+  line-height: 0px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.33);
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* Carpark area styling */
+.carpark-container {
+  margin: 15px;
+}
+
+.carpark-img-container {
+  float: left;
+}
+
+.carpark-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  float: left;
+  box-shadow: 10px 5px 7px grey;
+}
+
+.carpark-description {
+  margin-left: 150px;
+}
+
+.carpark-item-table th, td {
+  padding-left: 3px;
+  padding-top: 3px;
+  padding-right: 7px;
+  white-space: nowrap;
+}
+
+.carpark-item-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width:576px) {
+
+  /* Navigation bar styling overrides */
+  .header-list {
+    font-size: 1.1em;
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width:768px) {
+
+  /* Navigation bar styling overrides */
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .header-list {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .header-list li {
+    display: block;
+  }
+
+  #header-contact-info-splitter {
+    display: none;
+  }
+
+  .header-right-panel {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Common styles overrides */
+  .include-right-splitter {
+    border-right: none !important;
+  }
+}
+
+
+
