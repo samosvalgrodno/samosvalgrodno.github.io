@@ -1,4 +1,4 @@
-h1 { 
+h1 {
   font-size: inherit;
   margin-top: 0;
   margin-bottom: 0;
@@ -6,7 +6,7 @@ h1 {
   margin-right: 0;
   font-style: inherit;
   font-weight: inherit;
-} 
+}
 
 h2 {
   display: block;
@@ -159,6 +159,7 @@ footer {
 
 .carpark-img-container {
   float: left;
+  margin-top: 10px;
 }
 
 .carpark-img {
@@ -173,7 +174,8 @@ footer {
   margin-left: 150px;
 }
 
-.carpark-item-table th, td {
+.carpark-item-table th,
+td {
   padding-left: 3px;
   padding-top: 3px;
   padding-right: 7px;
@@ -187,35 +189,111 @@ footer {
   text-decoration: underline;
 }
 
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 375.98px) {
+
+  /* Navigation bar styling overrides */
+  .navbar {
+    padding: 0px;
+  }
+
+  .header-list {
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .main-banner-container {
+    font-size: 1.3em;
+  }
+
+  .carousel-item img {
+    width: 270px;
+  }
+
+  .carpark-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .carpark-description {
+    margin-left: 100px;
+    font-size: 0.8em;
+  }
+
+  footer{
+    font-size: 0.8em;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 376px) and (max-width: 475.98px) {
+
+    /* Navigation bar styling overrides */
+    .navbar {
+      padding: 0px;
+    }
+
+    .header-list {
+      font-size: 1em;
+      text-align: center;
+    }
+
+    .navbar-brand img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .main-banner-container {
+      font-size: 1.3em;
+    }
+
+    .carpark-img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .carpark-description {
+      margin-left: 120px;
+    }
+}
+
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (max-width:576px) {
+@media (min-width: 476px) and (max-width: 767.98px) {
 
   /* Navigation bar styling overrides */
   .header-list {
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (max-width:768px) {
+@media (min-width: 768px) and (max-width: 857.98px) {
 
-  /* Navigation bar styling overrides */
-  .navbar-brand img {
-    width: 50px;
-    height: 50px;
+  .carpark-img {
+    width: 100px;
+    height: 100px;
   }
+
+  .carpark-description {
+    margin-left: 120px;
+    font-size: 0.9em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/*@media (min-width: 768px) and (max-width: 991.98px) {*/
+@media screen and (max-width: 767.98px) {
 
   .logo-text {
     display: none;
   }
 
   .nav-item {
-    text-align: center;
-  }
-
-  .header-list {
-    font-size: 1.1em;
     text-align: center;
   }
 
@@ -232,11 +310,13 @@ footer {
     margin-right: auto !important;
   }
 
+  .carpark-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   /* Common styles overrides */
   .include-right-splitter {
     border-right: none !important;
   }
 }
-
-
-
