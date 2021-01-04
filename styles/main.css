@@ -404,7 +404,7 @@ footer {
   padding: 0;
 }
 
-.navbar-brand > img {
+.navbar-brand>img {
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -428,23 +428,21 @@ footer {
   list-style-type: none;
 }
 
-.header-list > li {
+.header-list>li {
   display: inline-block;
 }
 
-.header-list > li > a {
+.header-list>li>a {
   color: #e1533c;
   text-decoration: none;
 }
 
-.header-list > li > a:hover:not(.active) {
+.header-list>li>a:hover:not(.active) {
   color: #4b4b4b;
-  transition: color 0.4s ease 0s;
 }
 
-.header-list > li > a.active {
+.header-list>li>a.active {
   color: black;
-  transition: color 0.4s ease 0s;
 }
 
 #header-contact-info-splitter {
@@ -531,6 +529,7 @@ td {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 375.98px) {
+
   /* Navigation bar styling overrides */
   .navbar {
     padding: 0px;
@@ -568,8 +567,10 @@ td {
     font-size: 0.8em;
   }
 }
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (min-width: 376px) and (max-width: 475.98px) {
+
   /* Navigation bar styling overrides */
   .navbar {
     padding: 0px;
@@ -598,14 +599,17 @@ td {
     margin-left: 120px;
   }
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 476px) and (max-width: 767.98px) {
+
   /* Navigation bar styling overrides */
   .header-list {
     font-size: 1em;
     text-align: center;
   }
 }
+
 @media (min-width: 768px) and (max-width: 857.98px) {
   .carpark-img {
     width: 100px;
@@ -617,6 +621,7 @@ td {
     font-size: 0.9em;
   }
 }
+
 /* Medium devices (tablets, 768px and up) */
 /*@media (min-width: 768px) and (max-width: 991.98px) {*/
 @media screen and (max-width: 767.98px) {

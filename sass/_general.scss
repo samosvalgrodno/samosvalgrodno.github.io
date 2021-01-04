@@ -100,12 +100,10 @@ footer {
 
 .header-list>li>a:hover:not(.active) {
     color: $navBarNonActiveLink;
-    transition: color 0.4s ease 0s;
 }
 
 .header-list>li>a.active {
     color: $navBarActiveLink;
-    transition: color 0.4s ease 0s;
 }
 
 #header-contact-info-splitter {
