@@ -1,0 +1,22 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 476px) and (max-width: 767.98px) {
+
+    /* Navigation bar styling overrides */
+    .header-list {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 857.98px) {
+
+    .carpark-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .carpark-description {
+        margin-left: 120px;
+        font-size: 0.9em;
+    }
+}

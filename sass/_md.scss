@@ -1,0 +1,35 @@
+/* Medium devices (tablets, 768px and up) */
+/*@media (min-width: 768px) and (max-width: 991.98px) {*/
+@media screen and (max-width: 767.98px) {
+
+    .logo-text {
+        display: none;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .header-list li {
+        display: block;
+    }
+
+    #header-contact-info-splitter {
+        display: none;
+    }
+
+    .header-right-panel {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .carpark-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /* Common styles overrides */
+    .include-right-splitter {
+        border-right: none !important;
+    }
+}
