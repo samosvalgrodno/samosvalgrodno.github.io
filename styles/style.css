@@ -36,7 +36,8 @@ body {
   background-size: auto;
   background-position: center top;
   background-repeat: repeat;
-  background-image: url("../images/background/background.webp")
+  background-color: rgb(235, 230, 220);
+  /* background-image: url("../images/background/background.webp") */
 }
 
 footer {

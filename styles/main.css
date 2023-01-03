@@ -356,7 +356,8 @@ body {
   background-size: auto;
   background-repeat: repeat;
   background-position: center top;
-  background-image: url("../images/background/background.webp");
+  background-color: rgb(235, 230, 220);
+  /* background-image: url("../images/background/background.webp") */
 }
 
 h1 {
